@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BookAndGo</string>
+
+    <string-array name="restaurant_types">
+        <item>🍽️ Tutti</item>
+        <item>🍕 Pizzeria</item>
+        <item>🍣 Sushi</item>
+        <item>🍔 Fast Food</item>
+        <item>🥗 Vegetariano</item>
+        <item>🌯 Kebab</item>
+        <item>🥡 Da Asporto</item>
+    </string-array>
+
+
+
+</resources>

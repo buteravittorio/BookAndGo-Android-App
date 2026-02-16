@@ -1,0 +1,7 @@
+todo:
+    - usare metodo diverso di salvataggio dalle sharedPreferences;
+    - promemoria personalizzati appena fatta la prenotazione;
+    - notifica che ricorda la prenotazione fatta;
+    - dialog interattivo non funzionante dalla schermata dei preferiti;
+    - schermata per prenotazione da asporto;
+    - pulsante password dimenticata;

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/sfondo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C0000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prenota il tuo tavolo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:paddingBottom="20dp"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/etData"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seleziona la data"
+            android:focusable="false"
+            android:clickable="true"
+            android:gravity="center"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/etOra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Seleziona l'orario"
+            android:focusable="false"
+            android:clickable="true"
+            android:gravity="center"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"/>
+
+        <EditText
+            android:id="@+id/etPersone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Numero di persone"
+            android:inputType="number"
+            android:gravity="center"
+            android:textColorHint="#FFFFFF"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:id="@+id/btnConfermaPrenotazione"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="✅ Conferma Prenotazione"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/black"/>
+    </LinearLayout>
+</LinearLayout>
+

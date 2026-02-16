@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sfondo">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_centerInParent="true"
+        android:background="@android:color/black"
+        android:alpha="0.6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BookAndGo"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="cursive"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <TextView
+            android:id="@+id/tvCreaAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Crea account"
+            android:textColor="#007FFF"
+            android:layout_marginTop="10dp"
+            android:paddingEnd="10dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nome utente"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#D3D3D3"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#D3D3D3" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Ricorda"
+            android:buttonTint="#FFFFFF"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnAccedi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Accedi"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="@color/black" />
+
+        <TextView
+        android:id="@+id/tvDimenticata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password dimenticata?"
+        android:textColor="#007FFF"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:focusable="true" />
+    </LinearLayout>
+</RelativeLayout>
